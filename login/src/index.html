@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Форма авторизации</title>
+  </head>
+  <body>
+    <div class="login-page-wrapp d-flex">
+      <div class="login-form-wrap d-flex align-items-center">
+        <div class="form-card card ml-auto">
+          <div class="card-body">
+            <h4 class="card-title">Форма авторизации</h4>
+            <form name="loginForm">
+              <div class="form-group">
+                <label for="email">Ваш email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  aria-describedby="emailHelp"
+                  placeholder="Enter email"
+                  data-required="email"
+                  data-invalid-message="Please provide valid email example@example.com"
+                />
+              </div>
+              <div class="form-group">
+                <label for="password">Ваш пароль</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  placeholder="Password"
+                  data-required="password"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- /.login-form-wrap -->
+      <div class="login-greeting-screen d-flex align-items-center">
+        <div class="login-greeting-screen-text">
+          <h1 class="login-greeting-screen-title">Добро пожаловать в форму входа!</h1>
+          <p class="login-greeting-screen-description">
+            Тут должен быть текст и я вставлю свой стих.<br>
+            Wait, don’t go!<br>
+            I see a winter clouds,<br>
+            I hear flying snow,<br>
+            May be we sit at home?<br><br>
+
+            Wait, don’t go!<br>
+            I see a rain clouds,<br>
+            I hear rains drop,<br>
+            May be we sit at home?<br><br>
+
+            Wait, don’t go!<br>
+            I see a sunny ray,<br>
+            I hear birds song?<br>
+            May be we sit at home?<br><br>
+
+            Wait, don’t go!<br>
+          </p>
+        </div>
+      </div>
+      <!-- /.login-greeting-screen -->
+    </div>
+    <!-- /.login-page-wrapp -->
+  </body>
+</html>
